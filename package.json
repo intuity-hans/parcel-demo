@@ -1,0 +1,15 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rimraf dist && parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "rimraf": "^3.0.2"
+  }
+}
